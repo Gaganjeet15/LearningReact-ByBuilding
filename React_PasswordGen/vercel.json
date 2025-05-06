@@ -1,6 +1,8 @@
 {
   "rewrites": [
-    { "source": "/pass-gen", "destination": "/" },
-    { "source": "/pass-gen/(.*)", "destination": "/$1" }
+    {
+      "source": "/pass_generator(/.*)?",
+      "destination": "/index.html"
+    }
   ]
 }
