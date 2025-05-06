@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/pass_generator",
+      "destination": "/"
+    }
+  ]
+}
