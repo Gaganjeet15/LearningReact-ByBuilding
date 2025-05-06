@@ -15,7 +15,7 @@ function App() {
   }
 
   useEffect(() => {
-    let chars = "abcdefghijklmnopqrstuvwxyz";
+    let chars = "abcdefghijklmnopqrstuvwxyz"; //alpha
     if (includeNumbers) chars += "1234567890";
     if (includeChars) chars += "!@#$&*_+-=,.";
 
