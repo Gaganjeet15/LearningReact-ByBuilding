@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/pass_generator",
+      "source": "/pass-generator",
       "destination": "/"
     }
   ]
