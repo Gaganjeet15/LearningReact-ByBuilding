@@ -17,12 +17,16 @@ function App() {
       alert("Value is Small");
     }
   }
+  function Reset() {
+    setCounter(0);
+  }
   return (
     <>
       <h1>React Counter</h1>
       <h3>Counter Value: {counter}</h3>
-      <button onClick={addvalue}>Increment Value {counter}</button>
+      <button onClick={addvalue}>Increment Value </button>{" "}
       <button onClick={delvalue}>Decreament Value</button>
+      <button onClick={Reset}>Reset</button>
     </>
   );
 }
